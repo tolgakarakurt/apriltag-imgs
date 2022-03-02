@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for (( i=1; i<=9; i++ )) 
+do
+	convert tag16_05_0000$i.png -scale 800% 64px-0.66inc-800percent/800percenttag16_05_0000$i.png
+	echo "Creating tag16_05_0000$i.png to the directory"
+done
+
+for (( i=10; i<=29; i++ )) 
+do
+	convert tag16_05_000$i.png -scale 800% 64px-0.66inc-800percent/800percenttag16_05_000$i.png
+	echo "Creating tag16_05_000$i.png to the directory"
+done
